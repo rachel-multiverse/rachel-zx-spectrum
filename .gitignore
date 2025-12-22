@@ -1,0 +1,7 @@
+build/*.bin
+build/*.tap
+build/*.nex
+build/*.tzx
+build/*.lst
+build/*.sym
+.DS_Store
