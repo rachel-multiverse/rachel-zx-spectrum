@@ -1,4 +1,5 @@
-PASMO = /tmp/pasmoNext/pasmo/pasmo
+# Install PasmoNext: https://github.com/Ckirby101/pasmoNext
+PASMO ?= pasmo
 
 .PHONY: all next spectranet clean
 
