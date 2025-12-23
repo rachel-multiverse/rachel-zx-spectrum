@@ -154,10 +154,10 @@ rsh_copy:
 
 rsh_name_done:
         ; Platform ID at payload+16 (big-endian)
-        ; ZX Spectrum = 0x0004
+        ; ZX Spectrum = 0x0003
         ld a, $00
         ld (NET_TX_BUF + PAYLOAD_START + 16), a
-        ld a, $04               ; Platform 4 = ZX Spectrum
+        ld a, $03               ; Platform 3 = ZX Spectrum
         ld (NET_TX_BUF + PAYLOAD_START + 17), a
 
         ; Send message
